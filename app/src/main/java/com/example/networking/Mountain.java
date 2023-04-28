@@ -23,4 +23,11 @@ public class Mountain {
     public int getHeight() {
         return height;
     }
+
+    @Override
+    public String toString() {
+        return "Name: '" + name + '\'' +
+                ", Location: '" + location + '\'' +
+                ", Height: " + height;
+    }
 }
