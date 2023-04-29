@@ -57,4 +57,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public interface OnClickListener {
         void onClick(Mountain item);
     }
+
+    public void setItems(List<Mountain> items) {
+        this.items = items;
+    }
+
 }
